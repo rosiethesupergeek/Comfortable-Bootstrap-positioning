@@ -1,0 +1,115 @@
+h2 {
+    background-color: teal;
+    color: #fafafa;
+    margin-bottom: 0;
+}
+
+/*---------------------------------------------------Centering things HORIZONTALLY-------------*/
+
+/*---- To center a div use the "margin: 0 auto" to center text horizontally use "text-align: center". As I understand it, the p is a child of the .rosieandthediv class so it will be centered horizontally in the div because it's a child of it----
+border-radius: 50%;
+    background-color: blueviolet;
+    position: relative;
+    margin: 0 auto;-----------------------------------------------------------------------------------------------------------*/
+
+.rosieandthediv {
+    /* height: 200px;
+    width: 1750px; */
+    height: 400px;
+    background-color: pink;
+    margin-top: 0;
+}
+
+.rosieandthediv p {
+    text-align: center;
+    vertical-align: middle;
+    color: #fafafa;
+    line-height: 300px;
+}
+
+/*-----------------------------------------------------------------------Text-align to put your text: left, right, center and everywhere (justified)*/
+
+.rosieandthetextcenter {
+    text-align: center;
+    color: pink;
+    background-color: grey;
+}
+
+.rosieandthetextleft {
+    text-align: left;
+    color: grey;
+    background-color: pink ;
+}
+
+.rosieandthetextright {
+    text-align: right;
+    color: pink;
+    background-color: grey;
+}
+
+.rosieandthetextjustify {
+    text-align: justify;
+    color: grey;
+    background-color: pink ;
+}
+
+.rosieandtheverticaltextBASELINE {
+    vertical-align: baseline;
+    color: pink;
+    background-color: grey;
+}
+
+.rosieandtheverticaltextSUPER {
+    vertical-align: super;
+    color: grey;
+    background-color: pink ;
+}
+
+
+.container {
+    display: inline-block;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.pain-in-the-arse {
+    text-align: center;
+    vertical-align: middle;
+    color: #fafafa;
+    /* background-color: pink; */
+    border-radius: 5px;
+    padding: 200px 0;
+    /* position: relative; */
+    /* margin-top: 600px;
+    margin-bottom: 600px; */
+}
+
+.container1 {
+    display: inline-block;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.pain-in-the-arse {
+    /* text-align: center; */
+    vertical-align:auto;
+    color: #fafafa;
+    /* background-color: pink; */
+    border-radius: 5px;
+    padding: 200px 0;
+    /* position: relative; */
+    /* margin-top: 600px;
+    margin-bottom: 600px; */
+}
+
+
